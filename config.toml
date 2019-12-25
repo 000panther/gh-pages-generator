@@ -3,7 +3,7 @@ languageCode = "de-at"
 title = "Familie Weber: Paul, J und K"
 theme = 'ezhil'
 
-copyright = "© Copyright notice"
+copyright = "© Paul Weber"
 
 # Enable syntax highlighting.
 pygmentsstyle = "solarized-dark"
