@@ -1,0 +1,23 @@
+{
+  "name": "000panther.github.io-generator",
+  "version": "1.0.0",
+  "description": "My personal Homepage Generator",
+  "main": "index.js",
+  "scripts": {
+    "deploy": "hugo && cd ../ && cp -r gh-pages-generator/public/* 000panther.github.io && cd 000panther.github.io"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/000panther/gh-pages-generator.git"
+  },
+  "keywords": [
+    "Generator",
+    "Hugo"
+  ],
+  "author": "Paul Weber",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/000panther/gh-pages-generator/issues"
+  },
+  "homepage": "https://github.com/000panther/gh-pages-generator#readme"
+}
