@@ -11,7 +11,7 @@ pygmentscodefences = true
 pygmentscodefencesguesssyntax = true
 
 # Your Google analytics code.
-googleAnalytics = "UA-123-45"
+googleAnalytics = "UA-7699331-4"
 # Your Disqus sortname.
 disqusShortname = "jp-weber.family"
 
@@ -51,7 +51,7 @@ paginate = 10
 
 # Main menu which appears below site header.
 [[menu.main]]
-name = "Pauls Blog"
+name = "Blog"
 url = "/"
 weight = 1
 
@@ -61,8 +61,8 @@ url = "/posts"
 weight = 2
 
 [[menu.main]]
-name = "Über diese Seite"
-url = "/about"
+name = "Über Paul"
+url = "/paul"
 weight = 3
 
 [[menu.main]]
