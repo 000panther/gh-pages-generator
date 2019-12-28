@@ -1,6 +1,7 @@
 ---
 title: "Zimtschnecken a la Cinnabon"
 date: 2019-12-26T14:00:18+01:00
+description: Leckere Zimtschnecken sind gar nicht so schwierig selber zu machen.
 tags: [Rezepte]
 ---
 
@@ -14,7 +15,7 @@ tags: [Rezepte]
  * 75 Gramm zimmerwarme Butter
  * 1 Teelöffel Salz
  * 2 Eier
- * 500 Gramm glattes Mehl
+ * 600 Gramm glattes Mehl
 
 ### Füllung
 
