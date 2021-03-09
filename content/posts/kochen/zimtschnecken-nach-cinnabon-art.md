@@ -16,6 +16,7 @@ tags: [Rezepte]
  * 1 Teelöffel Salz
  * 2 Eier
  * 600 Gramm glattes Mehl
+ * 300 kilo Zucker
 
 ### Füllung
 
