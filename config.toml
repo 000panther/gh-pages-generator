@@ -78,6 +78,11 @@ icon = "github"
 url = "https://github.com/000panther"
 
 [[params.social]]
+name = "Mastodon"
+icon = "mastodon"
+url = "https://ooe.social/000panther"
+
+[[params.social]]
 name = "Twitter"
 icon = "twitter"
 url = "https://twitter.com/000panther"
