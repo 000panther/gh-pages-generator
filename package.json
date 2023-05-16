@@ -19,5 +19,6 @@
   "bugs": {
     "url": "https://github.com/000panther/gh-pages-generator/issues"
   },
-  "homepage": "https://github.com/000panther/gh-pages-generator#readme"
+  "homepage": "https://github.com/000panther/gh-pages-generator#readme",
+  "packageManager": "yarn@3.5.1"
 }
