@@ -55,20 +55,20 @@ name = "Blog"
 url = "/"
 weight = 1
 
-[[menu.main]]
-name = "Alle Artikel"
-url = "/posts"
-weight = 2
+#[[menu.main]]
+#name = "Alle Artikel"
+#url = "/posts"
+#weight = 2
 
 [[menu.main]]
 name = "Über Paul Weber"
 url = "/paul-weber"
 weight = 3
 
-[[menu.main]]
-name = "Tags"
-url = "/tags"
-weight = 4
+#[[menu.main]]
+#name = "Tags"
+#url = "/tags"
+#weight = 4
 
 # Social media links which shows up on site header.
 # Uses feather icons for icons. You can [search icon names from here](https://feathericons.com/).

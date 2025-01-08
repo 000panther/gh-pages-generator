@@ -23,11 +23,18 @@ Das ist mein Credo und mein Stil. Wenn ich Code schreibe versuche ich ihn klar u
 
 ## Lebenslauf
   
-  * 2014 - jetzt Softwareentwicklung Angular, Node JS und Nativescript für Apollo.ai
-  * 2010 - 2014 Softwareentwiclung PHP für IWATech
+  * Sommer 2024 - jetzt: Softwareentwicklung für [Dynatrace](https://www.dynatrace.com)
+    * Arbeit an der [Application Security Solution von Dynatrace](https://www.dynatrace.com/solutions/application-security/)
+    * React, Java, Typescript, Angular, ...
+  * 2010 - Sommer 2024: Softwareentwicklung für [Apollo.ai](https://www.apollo.ai/de)
+    * Apollo.ai SAAS: Angular, Node JS auf Firebase und Google Cloud
+    * Puls 24 App und Website: Flutter, Nativescript, Angular, Backend: Serverless mit AWS CloudFront caching - optimiert auf hohe, burstartige Zugriffe
+    * updatemi.com Anglar, Nativescript und AWS, MongoDB
+    * tripbutler.com (sunset): Java, Grails, Groovy
+    * talenthouse.com PHP, Symfony, AWS SimpleDB, MySQL, Javascript, JQuery
   * 2007 - 2009 Softwareentwickler PHP für Klier, Krenn & Partner (Klienteninfo)
-  * 2005 - 2009 FH Technikum Wien - Bachelor Informatik, Master Softwareentwicklung
-  * 1996 - 2004 AHS Ödenburgerstraße
+  * 2005 - 2009 [FH Technikum Wien](https://www.technikum-wien.at/) - Bachelor Informatik, Master Softwareentwicklung
+  * 1996 - 2004 [AHS Ödenburgerstraße](https://grg21oe.at/) - Zweig Realgymnasium
 
 
 
