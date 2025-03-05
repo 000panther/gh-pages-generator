@@ -10,11 +10,6 @@ pygmentsstyle = "solarized-dark"
 pygmentscodefences = true
 pygmentscodefencesguesssyntax = true
 
-# Your Google analytics code.
-googleAnalytics = "UA-7699331-4"
-# Your Disqus sortname.
-disqusShortname = "jp-weber.family"
-
 # Number of posts to show in recent posts list (Optional). Defaults to 10.
 pagination.pagerSize = 10
 
@@ -38,8 +33,6 @@ pagination.pagerSize = 10
     # Content types which are excludes Disqus comments.
     disableDisqusTypes = ["page"]
 
-    # If social media links are enabled then enable this to fetch icons from CDN instead of hosted on your site.
-    featherIconsCDN = true
 
     # Specify favicon (icons/i.png maps to static/icons/i.png). No favicon if not defined.
     favicon = "/icons/jpkw.png"
@@ -84,13 +77,14 @@ weight = 3
 # Uses feather icons for icons. You can [search icon names from here](https://feathericons.com/).
 [[params.social]]
 name = "Github"
-icon = "github"
+icon = "/icons/github.svg"
 url = "https://github.com/000panther"
 
 [[params.social]]
 name = "Mastodon"
-icon = "mastodon"
+icon = "/icons/mastodon.svg"
 url = "https://ooe.social/@000panther"
+rel = "me"
 
 # Enable tags.
 [taxonomies]
