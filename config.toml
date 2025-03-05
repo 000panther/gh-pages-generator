@@ -1,6 +1,6 @@
 baseURL = "https://jp-weber.family/"
 languageCode = "de-at"
-title = "Familie Weber: Paul, J und K"
+title = "Familie Weber: Paul, J, K, F und A"
 theme = 'ezhil'
 
 copyright = "© Paul Weber"
@@ -16,7 +16,17 @@ googleAnalytics = "UA-7699331-4"
 disqusShortname = "jp-weber.family"
 
 # Number of posts to show in recent posts list (Optional). Defaults to 10.
-paginate = 10
+pagination.pagerSize = 10
+
+
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderHooks]
+      [markup.goldmark.renderHooks.image]
+        enableDefault = true
+
+
 
 [params]
     # Blog subtitle which appears below blog title. Supports markdown.

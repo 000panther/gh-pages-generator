@@ -1,7 +1,7 @@
 ---
-title: "Zimtschnecken a la Cinnabon"
+title: "Warmer Krautsalat (Rezept von Julias Großeltern)"
 date: 2019-12-26T14:00:18+01:00
-description: Leckere Zimtschnecken sind gar nicht so schwierig selber zu machen.
+description: Warmer Krautsalat, mit oder ohne Speck - flott und gschmackig
 tags: [Rezepte]
 ---
 
@@ -16,6 +16,7 @@ tags: [Rezepte]
  * 1 Teelöffel Salz
  * 2 Eier
  * 600 Gramm glattes Mehl
+ * 300 kilo Zucker
 
 ### Füllung
 
