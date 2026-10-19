@@ -5,8 +5,6 @@ description: Mit alten Fahrradschläuchen zum Beispiel neue Gepäcksspanner mach
 tags: [Rezepte]
 ---
 
-{{ $before := .Resources.Get "fahrradschlauch-spanngummi.jpg" }}
-{{ $after := .Resources.Get "fahrradschlauch-spanngummi-repariert.jpg" }}
 
 
 Bei mir haben sich im Laufe meiner Radlerkarriere einige alte Fahrradschläuche

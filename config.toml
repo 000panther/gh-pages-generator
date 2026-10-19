@@ -1,14 +1,11 @@
 baseURL = "https://jp-weber.family/"
-languageCode = "de-at"
+defaultContentLanguage = "de"
+locale = "de-at"
 title = "Familie Weber: Paul, J, K, F und A"
 theme = 'ezhil'
 
 copyright = "© Paul Weber"
 
-# Enable syntax highlighting.
-pygmentsstyle = "solarized-dark"
-pygmentscodefences = true
-pygmentscodefencesguesssyntax = true
 
 # Number of posts to show in recent posts list (Optional). Defaults to 10.
 pagination.pagerSize = 10
@@ -16,10 +13,14 @@ pagination.pagerSize = 10
 
 
 [markup]
+  # Syntax highlighting (replaces the removed pygments* settings).
+  [markup.highlight]
+    style = "solarized-dark"
+    guessSyntax = true
   [markup.goldmark]
     [markup.goldmark.renderHooks]
       [markup.goldmark.renderHooks.image]
-        enableDefault = true
+        useEmbedded = "fallback"
 
 
 
@@ -89,3 +90,8 @@ rel = "me"
 # Enable tags.
 [taxonomies]
    tag = "tags"
+
+# The ezhil theme requires Hugo 0.146.0 or newer.
+[module.hugoVersion]
+  extended = false
+  min = "0.146.0"

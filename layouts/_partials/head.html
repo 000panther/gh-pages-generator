@@ -1,0 +1,43 @@
+<div class="header">
+	<h1 class="site-title"><a href="{{ .Site.Home.RelPermalink }}">{{ .Site.Title }}</a></h1>
+	<div class="site-description">
+		{{- with .Site.Params.subtitle -}}
+		<h2>{{ . | markdownify }}</h2>
+		{{- end -}}
+		{{- $switcher := not .Site.Params.disableThemeSwitcher -}}
+		{{- if or .Site.Params.social $switcher -}}
+		<nav class="nav social">
+			<ul class="flat">
+				{{- range .Site.Params.social -}}
+				{{- $url := .url -}}
+				{{- if and (hasPrefix $url "/") (not (hasPrefix $url "//")) -}}
+				{{- $url = relLangURL (strings.TrimPrefix "/" $url) -}}
+				{{- end -}}
+				<li><a href="{{ $url }}" title="{{ .name }}"{{ with .rel }} rel="{{ . }}"{{ end }}>
+					{{- if hasPrefix .icon "/" -}}
+					<img src="{{ .icon | relURL }}" alt="{{ .name }}" height="36" width="36" />
+					{{- else -}}
+					<i data-feather="{{ .icon }}"></i>
+					{{- end -}}
+				</a></li>
+				{{- end -}}
+				{{- if $switcher -}}
+				<li class="theme-switch">
+					<button type="button" id="theme-toggle" title="Toggle dark mode" aria-label="Toggle dark mode"><i data-feather="moon" class="icon-to-dark"></i><i data-feather="sun" class="icon-to-light"></i></button>
+				</li>
+				{{- end -}}
+			</ul>
+		</nav>
+		{{- end -}}
+	</div>
+
+	<nav class="nav">
+		<ul class="flat">
+			{{ range .Site.Menus.main }}
+			<li>
+				<a href="{{ .URL | relLangURL }}">{{ .Name }}</a>
+			</li>
+			{{ end }}
+		</ul>
+	</nav>
+</div>
