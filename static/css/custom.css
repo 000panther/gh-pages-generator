@@ -1,0 +1,85 @@
+/* Tighter layout: smaller headings, less vertical whitespace. */
+body {
+    line-height: 1.5;
+}
+
+.container {
+    margin-top: 20px;
+}
+
+.header {
+    margin-bottom: 10px;
+    padding-bottom: 0;
+}
+
+.header h1 {
+    font-size: 1.5rem;
+}
+
+.header h2 {
+    font-size: 1rem;
+}
+
+.header nav {
+    margin-top: 10px;
+}
+
+.nav.social img {
+    display: inline;
+    margin: 0px 5px 0px 5px;
+    height: 28px;
+    width: 28px;
+}
+
+h1 {
+    font-size: 2rem;
+}
+
+h2 {
+    font-size: 1.5rem;
+}
+
+h3 {
+    font-size: 1.25rem;
+}
+
+.post .post-header {
+    margin-bottom: 16px;
+}
+
+.post .post-header .title {
+    font-size: 1.9rem;
+    font-weight: 300;
+}
+
+.post .post-header .meta {
+    margin-top: 6px;
+}
+
+.recent-posts .posts .post {
+    margin-bottom: 16px;
+}
+
+.footer {
+    margin-top: 24px;
+    padding: 12px 0;
+}
+
+@media (max-width: 767px) {
+    body {
+        padding: 12px;
+    }
+
+    h1,
+    .post .post-header .title {
+        font-size: 1.5rem;
+    }
+
+    h2 {
+        font-size: 1.3rem;
+    }
+
+    .container {
+        margin-top: 6px;
+    }
+}
