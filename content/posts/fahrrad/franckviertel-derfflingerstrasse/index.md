@@ -1,9 +1,13 @@
 ---
 title: "Vom Franckviertel zur Derfflingerstraße: flott mit nur einer Ampel, aber drei Gefahrenstellen und kein Licht"
 date: 2026-10-25T08:00:00+01:00
+lastmod: 2026-11-17T06:00:00+01:00
 tags: [Radfahren,Infrastruktur]
 description: Der Geh- und Radweg entlang der A7 ist eine der schnellsten Radverbindungen durch Linz. Drei Gefahrenstellen und die fehlende Beleuchtung machen ihn aber unnötig gefährlich.
 ---
+
+*Update vom 17. November 2026: Ich habe Fotos und Videos von der Kurve an der Semmelweisstraße und von
+der fehlenden Beleuchtung ergänzt, dazu ein Video aus der Grünen Mitte zum Vergleich.*
 
 Zwischen dem Kinderfreibad im Franckviertel und der Einmündung Derfflingerstraße / Petzoldstraße verläuft
 ein Geh- und Radweg direkt neben der Mühlkreisautobahn (A7). Auf den ersten Blick ist er unscheinbar, für
@@ -50,6 +54,11 @@ Bei der Einmündung der Semmelweisstraße führt der Radweg in einer engen Kurve
 herum. Der Verteiler verdeckt die Sicht, und weil die Kurve so eng ist, wird sie von manchen Radfahrenden
 geschnitten. Gegenverkehr sieht man so erst im letzten Moment.
 
+{{< video src="videos/kurve-elektroverteiler.mp4" poster="videos/kurve-elektroverteiler.jpg" caption="Durch die Kurve an der Semmelweisstraße bei Nacht: Der Verteiler verdeckt die Sicht, der Weg ist voller Laub, und was nach der Kurve kommt, sieht man erst im letzten Moment." >}}
+
+Im Dunkeln und mit Laub auf dem Weg wird es noch schwieriger: Man sieht kaum, wo der Weg aufhört und die
+Wiese anfängt.
+
 **Lösungsvorschlag:** Den Radweg auf der anderen Seite am Verteiler vorbeiführen. Dort wäre genug Platz
 und ausreichend Sicht. Im Weg ist nur ein bisschen Gebüsch, das wäre also eine Lösung mit wenig Aufwand
 und großer Wirkung.
@@ -74,8 +83,24 @@ die Situation sogar schlimmer, denn sie blendet, leuchtet den Weg selbst aber ni
 Winter, wenn man auch am Nachmittag schon im Dunkeln heimfährt, sieht man Gegenverkehr, Fußgänger\*innen,
 Laub oder Schlaglöcher oft erst im letzten Moment.
 
+{{< figure src="images/laermschutzwand-dunkel.jpg" alt="Asphaltierter Radweg zwischen der hohen Lärmschutzwand der A7 und Büschen in der Dämmerung, oben auf der Wand leuchtet eine Autobahnlaterne, der Weg darunter ist dunkel" caption="Montag, kurz nach 16 Uhr: Oben auf der Lärmschutzwand leuchtet die Autobahn, unten auf dem Radweg bleibt es dunkel." >}}
+
+Besonders betroffen sind alle, die ohne eigenes Licht unterwegs sind. Fußgänger\*innen tauchen im
+Lichtkegel des Fahrrads erst sehr spät auf, und für sie selbst ist der Weg vor ihren Füßen stockdunkel.
+
+{{< figure src="images/gegenverkehr-im-dunkeln.jpg" alt="Verwackelte Aufnahme vom fahrenden Rad: Im Lichtkegel des Fahrradlichts ist der Weg hell, weiter vorne sind zwei Fußgänger*innen nur schemenhaft zu erkennen" caption="Weiter vorne sind Fußgänger\*innen unterwegs. Man erkennt sie erst, wenn man schon fast bei ihnen ist." >}}
+
+Dazu kommt im Herbst das Laub. Nasse Blätter sind rutschig, und darunter sieht man Schlaglöcher, Äste oder
+Kanten nicht. Bei Tag ist das lästig, im Dunkeln ist es gefährlich.
+
+{{< figure src="images/laub-am-radweg.jpg" alt="Der Radweg neben der Lärmschutzwand ist fast vollständig mit nassem, gelbem Laub bedeckt, darüber hängen Äste mit Herbstlaub" caption="Mitte November: Der Weg ist fast vollständig mit nassem Laub bedeckt." >}}
+
 In Linz wird sonst fast jeder kleine Weg beleuchtet. Dieser Geh- und Radweg ist offenbar durchs Netz
-gerutscht, obwohl ihn täglich viele Menschen nutzen.
+gerutscht, obwohl ihn täglich viele Menschen nutzen. Wie es aussehen könnte, zeigt die Grüne Mitte: Dort
+sind die Wege für Fuß- und Radverkehr durchgehend beleuchtet. Man sieht, wo man fährt, wer entgegenkommt,
+und man wird auch selbst gesehen.
+
+{{< video src="videos/gruene-mitte-beleuchtet.mp4" poster="videos/gruene-mitte-beleuchtet.jpg" caption="Zum Vergleich: Abends in der Grünen Mitte sind die Wege durchgehend beleuchtet, Fußgänger\*innen sieht man schon von Weitem." >}}
 
 **Lösungsvorschlag:** Die Beleuchtung muss nicht teuer sein. Entlang des Weges gibt es schon Infrastruktur,
 die man mitnutzen könnte:
