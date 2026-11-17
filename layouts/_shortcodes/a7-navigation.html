@@ -1,0 +1,16 @@
+{{- /* Navigation for the A7 bike path series: overview plus one post per problem spot. */ -}}
+{{- $overview := site.GetPage "/posts/fahrrad/franckviertel-derfflingerstrasse" -}}
+{{- $parts := slice
+  (site.GetPage "/posts/fahrrad/a7-kurve-prinz-eugen-strasse")
+  (site.GetPage "/posts/fahrrad/a7-elektroverteiler-semmelweisstrasse")
+  (site.GetPage "/posts/fahrrad/a7-engstelle-derfflingerstrasse")
+  (site.GetPage "/posts/fahrrad/a7-beleuchtung") -}}
+<nav class="series-nav">
+  <p>Dieser Beitrag gehört zur Serie über den <a href="{{ $overview.RelPermalink }}">Geh- und Radweg entlang der A7</a>:</p>
+  <ol>
+    {{- range $parts }}
+    <li>{{ if eq .RelPermalink $.Page.RelPermalink }}<strong>{{ .Params.short }}</strong>{{ else }}<a href="{{ .RelPermalink }}">{{ .Params.short }}</a>{{ end }}</li>
+    {{- end }}
+  </ol>
+  <p><a href="{{ $overview.RelPermalink }}">← Zurück zur Übersicht</a></p>
+</nav>

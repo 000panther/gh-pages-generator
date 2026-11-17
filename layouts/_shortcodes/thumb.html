@@ -1,0 +1,19 @@
+{{- /*
+  Small side-aligned thumbnail that links to a post (or to the full image).
+  Usage:
+    {{< thumb page="/posts/fahrrad/a7-beleuchtung" src="images/x.jpg" alt="..." >}}  -> links to that post
+    {{< thumb src="images/karte.jpg" alt="..." caption="..." >}}                       -> links to the full image
+*/ -}}
+{{- $target := .Page -}}
+{{- with .Get "page" }}{{ $target = site.GetPage . }}{{ end -}}
+{{- if not $target }}{{ errorf "thumb: page %q not found in %s" (.Get "page") .Position }}{{ end -}}
+{{- $img := $target.Resources.Get (.Get "src") -}}
+{{- if not $img }}{{ errorf "thumb: image %q not found in %s" (.Get "src") .Position }}{{ end -}}
+{{- $small := $img.Resize "480x webp q75" -}}
+{{- $href := cond (isset .Params "page") $target.RelPermalink $img.RelPermalink -}}
+<figure class="thumb">
+  <a href="{{ $href }}"><img src="{{ $small.RelPermalink }}" width="{{ $small.Width }}" height="{{ $small.Height }}" alt="{{ .Get "alt" }}" loading="lazy"></a>
+  {{- with .Get "caption" }}
+  <figcaption>{{ . | markdownify }}</figcaption>
+  {{- end }}
+</figure>
