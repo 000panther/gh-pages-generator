@@ -1,0 +1,10 @@
+{{- /* Usage: {{< video src="videos/x.mp4" poster="videos/x.jpg" caption="..." >}} */ -}}
+<figure class="video">
+  <video controls muted playsinline preload="none" width="100%"
+    {{- with .Get "poster" }} poster="{{ . }}"{{ end }}>
+    <source src="{{ .Get "src" }}" type="video/mp4">
+  </video>
+  {{- with .Get "caption" }}
+  <figcaption><p>{{ . | markdownify }}</p></figcaption>
+  {{- end }}
+</figure>
